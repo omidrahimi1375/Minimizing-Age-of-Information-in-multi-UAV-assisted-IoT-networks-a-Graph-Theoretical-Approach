@@ -1,0 +1,20 @@
+dataset : eil76
+nSensor : 76
+clustering : no
+method : ourMethod
+metric : averageAOI
+initAOI : 0
+initCurPos : LD
+nClusters : 2
+
+
+
+
+help:
+dataset : eil51, eil76, eil101, a280, berlin52, att48
+nSensor : the number of sensors - 51, 76, 101, 280, 52, 48)
+clustering : if you want use clustering yes, else no
+method : ourMethod or optimalMethod
+metric : averageAOI or hopCount
+initAOI : [0, infinite]
+initCurPos : LU(Left Up) - LD(Left Down) - RU(Right Up) - RD(Right Down)
